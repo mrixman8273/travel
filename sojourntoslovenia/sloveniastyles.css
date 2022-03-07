@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body{
+    color: #000000;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+    font-size: 25px;
+    background-image: url(img/bkg.jpg);
+	background-size: cover;
+    background-repeat: no-repeat;
+	
+}
+
+
+
+header {
+    width: 768px;
+    height: 250px;
+    background-color: #FFFFFF;
+    background-image: url(img/newlogo-01.png);
+    font-size: 24px;
+}
+
+
+/*Float the Main so it shows up next to the Aside. Reduce width by 150px so they both line up with header*/
+main {
+    width: 569px;
+    height: 2400px;
+    background-color: #FFFFFF;
+    float: left;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+/*Clear the float so the footer shows up in the right place again.*/
+footer {
+    width: 768px;
+    height: 50px;
+    background-color: #ED2028;
+    clear: both;
+}
+
+#container{
+	width: 768px;
+	height: auto;
+	background-color: #FFFFFF;
+	margin: auto;
+}
+
+
+h3 {
+    font-size: 15pt;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+h6 {
+    font-size: 23px;
+    font-weight: 600;
+}
+p {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16pt;
+}
+
+/*Float the Aside so it displays next to main*/
+aside {
+    width: 150px;
+    height: 2450px;
+    background-color: #293790;
+    float: left;
+    color: #FFFFFF;
+}
+a {
+    text-decoration: none;
+    color: #ED2028;
+	font-family: trajan-pro-3,serif;
+	font-weight: 850;
+	font-style: normal;
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float:left;
+}
+
+article {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+nav {
+    width: 768px;
+    height: 50px;
+}
+h1 {
+    color: #ED2028;
+    font-family: trajan-pro-3,serif;
+}
+#container nav li {
+    display: block;
+    float: left;
+    margin: 0px 60px 0px 0px;
+    width: 85px;
+	font-family: buffet-script, sans-serif;
+	font-size: 18pt
+}
+#container nav ul {
+    margin: auto;
+    width: 494px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+    color: #830002;
+}
+a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #FF0004;
+    padding: 10px;
+	border-radius: 20px
+}
+a:active {
+    text-decoration: none;
+    color: #000000;
+}
